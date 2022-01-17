@@ -44,7 +44,7 @@ class Books {
 
 export const books = new Books();
 
-function checkIfEmpty() {
+const checkIfEmpty = () => {
   if (books.bookList.length !== 0) {
     list.style.display = 'block';
   } else {
