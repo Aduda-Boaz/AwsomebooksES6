@@ -50,7 +50,7 @@ const checkIfEmpty = () => {
   } else {
     list.style.display = 'none';
   }
-}
+};
 
 export const updateDomAndLocalStorage = () => {
   appendBooksToList();
