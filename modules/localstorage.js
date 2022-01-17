@@ -5,7 +5,6 @@ export const addToLocalStorage = (books) => {
   window.localStorage.setItem('books', JSON.stringify(books));
 };
 
-
 export const getFromLocalStorage = () => {
   if (localStorage.length !== 0) {
     const booksFromLocStg = JSON.parse(window.localStorage.getItem('books'));
