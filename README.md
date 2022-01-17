@@ -4,7 +4,7 @@
 
 > A simple app that stores, displays and removes books from localStorage and UI.
 
-![screenshot](./app_screenshot.png)
+<!-- ![screenshot](./app_screenshot.png) -->
 
 Additional description about the project and its features.
 
